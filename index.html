@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header__lines">
+            <div class="header_redLine"></div>
+            <div class="header_greenLine"></div>
+        </div>
+        <div class="header__main container">
+            <a class="logoOne" href="#">
+                <img src="assets/logo.svg" alt="logo">
+            </a>
+
+            <div class="header__main_locaion">
+                <img id="locationIcon" src="assets/carbon_location-filled.svg" alt="locationIcon">
+                <div>
+                    <a href="https://maps.app.goo.gl/GUzq9jsSiFWibxi89" target="_blank" rel="noopener noreferrer">
+                        82400, Львівська обл., м. Стрий, вул. Ольги Басараб, буд. 15
+                    </a>
+                    <a href="#">графік роботи</a>
+                </div>
+            </div>
+
+            <a href="tel:(03245) 7-03-02" class="header__main_number">
+                <img id="phoneIcon" src="assets/el_phone-alt.svg" alt="phoneIcon">
+                <h2 id="telNumber">
+                    (03245) 7-03-02
+                </h2>
+            </a>
+            <nav class="header__main_nav container">
+                <ul>
+                    <li>
+                        <a href="#">Реєстратура</a>
+                    </li>
+                    <li>
+                        <a href="#">Про лікарню</a>
+                    </li>
+                    <li>
+                        <a href="#">Пацієнту</a>
+                    </li>
+                    <li>
+                        <a href="#">Оцініть роботу</a>
+                    </li>
+                    <li>
+                        <a href="#">Зворотній звʼязок</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero_container">
+                <h1>Чи був ввічливий з Вами персонал?</h1>
+                <p>
+                    Оцініть ввічливість персоналу нашої лікарні
+                </p>
+                <fieldset class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5"
+                        title="Awesome - 5 stars"></label>
+                    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half"
+                        for="star4half" title="Pretty good - 4.5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4"
+                        title="Pretty good - 4 stars"></label>
+                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half"
+                        for="star3half" title="Meh - 3.5 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3"
+                        title="Meh - 3 stars"></label>
+                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half"
+                        for="star2half" title="Kinda bad - 2.5 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2"
+                        title="Kinda bad - 2 stars"></label>
+                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half"
+                        for="star1half" title="Meh - 1.5 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1"
+                        title="Sucks big time - 1 star"></label>
+                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf"
+                        title="Sucks big time - 0.5 stars"></label>
+                </fieldset>
+                <form>
+                    <textarea name="form_message" id="" cols="" rows="" placeholder="Ваше повідомлення..."></textarea>
+                    <div class="my-container">
+                        <div class="hero__form_checkbox">
+                            <input type="checkbox" name="answer" id="cb1">
+                            <label for="cb1"></label>
+                            <p>Я хочу отримати офіційну відповідь на email</p>
+                        </div>
+                        <div class="hero__form_submit">
+                            <input type="submit" value="НАДІСЛАТИ">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <a class="footer__logo" href="#">
+                <img src="assets/footer-logo.svg" alt="footer-logo">
+            </a>
+            <nav class="footer__navigation1">
+                <ul>
+                    <li>
+                        <a href="#">Підрозділи</a>
+                    </li>
+                    <li>
+                        <a href="#">Графіки роботи</a>
+                    </li>
+                    <li>
+                        <a href="#">Декларація з лікарем</a>
+                    </li>
+                    <li>
+                        <a href="#">Доступні ліки</a>
+                    </li>
+                    <li>
+                        <a href="#">Про поліклініку</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__navigation2">
+                <ul>
+                    <li>
+                        <a href="#">Публічні закупівлі</a>
+                    </li>
+                    <li>
+                        <a href="#">Профспілка медичних працівників</a>
+                    </li>
+                    <li>
+                        <a href="#">Міські цільові соціальні програми</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__socialMedia">
+                <h6>Тримайте руку на пульсі</h6>
+                <p>слідкуйте за оновленнями в соц. мережах</p>
+                <div>
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/bi-facebook.svg" alt="facebook-icon">
+                    </a>
+                    <a href="http://telegram.org" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/akar-icons-telegram-fill.svg" alt="telegram-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__underline">
+            <p>
+                © 2023 комунального некомерційного підприємства Стрийської міської ради
+                Використання матеріалів сайту дозволяється лише з посиланням на джерело
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

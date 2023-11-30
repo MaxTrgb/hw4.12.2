@@ -1,0 +1,400 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 118px;
+}
+
+header {
+    width: 100%;
+    height: 124px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    position: fixed;
+    top: 0;
+}
+
+.header__lines {
+    display: flex;
+}
+
+.header_redLine {
+    width: 28%;
+    height: 8px;
+    flex-shrink: 0;
+    background: #E50050;
+}
+
+.header_greenLine {
+    width: 72%;
+    height: 8px;
+    flex-shrink: 0;
+    background: #4DAF8A;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.logoOne {
+    width: 180px;
+    height: 78px;
+}
+
+
+.header__main_locaion {
+    display: flex;
+    width: 510px;
+}
+
+#locationIcon {
+    max-width: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    min-height: 32px;
+}
+
+.header__main_locaion>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__main_locaion>div>a:first-child {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1px;
+    margin-left: 13px;
+    text-decoration: none;
+}
+
+.header__main_locaion>div>a:last-child {
+    color: #E50050;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 12px;
+
+}
+
+.header__main_number {
+    display: flex;
+    margin-left: 20px;
+    gap: 12px;
+    text-decoration: none;
+    color: #000;
+
+
+}
+
+#telNumber {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -5px;
+}
+
+#phoneIcon {
+    max-width: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    min-height: 32px;
+}
+
+.header__main_number h3 {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.header__main_nav {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.header__main_nav ul {
+    display: flex;
+}
+
+.header__main_nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header__main_nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer {
+    background: #35C493;
+}
+
+.footer {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.footer__navigation1,
+.footer__navigation2 {
+    padding-top: 14px;
+    margin-bottom: 2px;
+}
+
+.footer__navigation1 li,
+.footer__navigation2 li {
+    list-style: none;
+    margin-bottom: 22px;
+    width: 190px;
+}
+
+.footer__navigation1 a,
+.footer__navigation2 a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer__socialMedia {
+    padding-top: 10px;
+}
+
+.footer__socialMedia>div {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__socialMedia h6 {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer__socialMedia p {
+    color: #BFFADB;
+    font-family: Ubuntu;
+    font-size: 14px;
+    width: 180px;
+    margin-bottom: 14px;
+}
+
+.footer__line {
+    margin: 0 125px 30px 125px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.footer__underline {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
+.footer__underline p {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 14px;
+    width: 520px;
+}
+
+.hero {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.hero h1 {
+    width: 790px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 84px;
+}
+
+.my-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero p {
+    width: 741px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: s8px;
+}
+
+.hero__form_checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.hero form textarea {
+    width: 796px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #4DAF8A;
+    background: #EFFFF7;
+    padding-top: 18px;
+    padding-left: 18px;
+
+}
+
+.hero form textarea::placeholder {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero__form_checkbox label {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+
+}
+
+.hero__form_checkbox input[id="cb1"]+label {
+    display: inline-block;
+    width: 20px;
+    height: 22px;
+    border-radius: 2px;
+    border: 2px solid #32C190;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hero__form_checkbox input[id="cb1"]:checked+label:after {
+    position: relative;
+    top: -6px;
+    left: 1px;
+    content: '\2714';
+    font-size: 20px;
+}
+
+.hero__form_checkbox input[id="cb1"] {
+    display: none;
+}
+
+.hero__form_submit input[type="submit"] {
+    width: 222.522px;
+    height: 46px;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #E50050;
+    box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 50px;
+
+}
+
+.hero__form_checkbox p {
+    width: 500px;
+    margin-left: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rating {
+    border: none;
+    float: left;
+    margin-bottom: 28px;
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label:before {
+
+    font-size: 3em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating>.half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating>label {
+    color: #ddd;
+    float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating>input:checked~label,
+/* show gold star when clicked */
+.rating:not(:checked)>label:hover,
+/* hover current star */
+.rating:not(:checked)>label:hover~label {
+    color: #FFD700;
+}
+
+/* hover previous stars in list */
+
+.rating>input:checked+label:hover,
+/* hover current star when changing rating */
+.rating>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+/* lighten current selection */
+.rating>input:checked~label:hover~label {
+    color: #FFED85;
+}
